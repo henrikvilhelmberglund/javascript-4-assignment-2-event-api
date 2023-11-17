@@ -1,0 +1,44 @@
+{
+  "writerOpts": {
+    "commitsSort": false
+  },
+  "types": [
+    {
+      "type": "test",
+      "section": "Tests",
+      "hidden": false
+    },
+    {
+      "type": "feat",
+      "section": "Features:"
+    },
+    {
+      "type": "fix",
+      "section": "Bug Fixes"
+    },
+    {
+      "type": "chore",
+      "section": "Chore: Maintenance",
+      "hidden": false
+    },
+    {
+      "type": "docs",
+      "section": "Documentation:",
+      "hidden": false
+    },
+    {
+      "type": "style",
+      "hidden": true
+    },
+    {
+      "type": "refactor",
+      "section": "Refactor",
+      "hidden": false
+    },
+    {
+      "type": "perf",
+      "section": "Performance",
+      "hidden": false
+    }
+  ]
+}
