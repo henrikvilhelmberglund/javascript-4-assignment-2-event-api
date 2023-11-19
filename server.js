@@ -1,7 +1,7 @@
 import express from "express";
 import cors from "cors";
 import dotenv from "dotenv";
-import { router } from "./routes/products-routes.js";
+import { router } from "./routes/event-routes.js";
 import console from "hvb-console";
 
 dotenv.config();
