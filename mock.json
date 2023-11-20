@@ -15,5 +15,25 @@
       "name": "Stage area",
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Cthulhu_on_the_Campaign_Trail.jpg/1280px-Cthulhu_on_the_Campaign_Trail.jpg"
     }
+  ],
+  "details": [
+    {
+      "id": 1,
+      "name": "Book area",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Necronomicon_prop.jpg",
+      "description": "Step into the arcane realm of the CthulhuCon book area, a sanctuary for enthusiasts of eldritch literature and cosmic horror. Nestled within this mysterious enclave, you'll find a curated collection of Cthulhu-themed books and lore, including revered tomes like the infamous Necronomicon. The atmosphere is imbued with an air of ancient wisdom and forbidden knowledge, beckoning readers to delve into the chilling narratives penned by H.P. Lovecraft and other masters of the cosmic horror genre.\nPeruse the shelves adorned with leather-bound volumes, their covers adorned with cryptic symbols and otherworldly imagery. Engage with the essence of the Mythos as you immerse yourself in tales of unspeakable horrors and cosmic entities that defy human comprehension. To enhance your experience, authors well-versed in the eldritch arts are present to sign copies of their chilling works, adding a personal touch to your journey through the literary shadows.\nFor those eager to bring a piece of the cosmic horror home, the book area offers a selection of Cthulhu-themed books and role-playing game (RPG) materials available for purchase. Whether you're seeking to expand your library or embark on an otherworldly adventure through RPG realms, the CthulhuCon book area invites you to explore the depths of eldritch literature and immerse yourself in a world where the line between fiction and reality becomes tantalizingly blurred."
+    },
+    {
+      "id": 2,
+      "name": "Photo area",
+      "image_url": "https://henrikvilhelmberglund.com/javascript-4-assignment-2-event-api/assets/2023-11-17_21-18-DNgMjkuzjU.webp",
+      "description": "Welcome to the enigmatic photo area at CthulhuCon, where the allure of the 1920s collides with eldritch horror. Immerse yourself in a dimly lit room adorned with ancient symbols and eerie candlelight, transporting you to a bygone era steeped in mystery. A life-sized Cthulhu statue stands as the centerpiece, its tentacles reaching towards the heavens, setting the stage for a uniquely haunting experience.\nParticipants are encouraged to don 1920s-inspired costumes, blending vintage elegance with otherworldly twists. The room offers an array of period-appropriate garments, allowing attendees to embody the spirit of the Roaring Twenties with a touch of cosmic horror. Professional photographers are available to capture your journey into the unknown, offering personalized portraits against the eldritch backdrop for a fee. Whether you're a seasoned Lovecraftian enthusiast or a curious newcomer, the Cthulhu-styled photo area promises a memorable fusion of vintage charm and cosmic horror at CthulhuCon."
+    },
+    {
+      "id": 3,
+      "name": "Stage area",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Cthulhu_on_the_Campaign_Trail.jpg/1280px-Cthulhu_on_the_Campaign_Trail.jpg",
+      "description": "Welcome to the heart of CthulhuCon's stage area, where the ethereal boundary between reality and the cosmic unknown blurs seamlessly. Join us under the haunting glow of dim stage lights as Keeper Karl-Fredrik, a master of eldritch storytelling, guides you through a live roleplaying session that promises to plunge you deep into the mysteries of the Mythos. The stage comes alive with popular celebrity guests assuming the roles of investigators, adding a touch of star-studded glamour to the immersive horror experience. Brace yourself for an interactive journey where the audience becomes part of the cosmic narrative, unraveling secrets that defy the boundaries of sanity.\nAs the shadows lengthen, the stage transforms into a haven for enthusiasts of the strange and the supernatural. Behold the spectacle of the CthulhuCon cosplay event, where participants bring the eldritch beings and investigators to life, each costume a testament to the creativity inspired by the cosmic horror genre. From otherworldly entities to intrepid investigators, the stage becomes a living tableau of Lovecraftian imagination, inviting all to witness the fusion of reality and eldritch fantasy.\nAnd, shrouded in mystery, there's a secret event lurking in the shadows of the stage area, waiting to be unveiled to those daring enough to seek it out. Whispers of arcane gatherings and hidden revelations circulate through the air, promising an experience beyond the ordinary, where the line between audience and participant dissolves in the face of cosmic secrets. The stage area at CthulhuCon beckons, offering an unforgettable journey into the heart of Lovecraftian horror and the unknown."
+    }
   ]
 }
