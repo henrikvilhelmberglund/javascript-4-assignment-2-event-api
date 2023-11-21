@@ -40,3 +40,11 @@ export const postTickets = async (req, res) => {
   });
   res.status(response.statusCode).json(response);
 };
+
+export const getTickets = async (req, res) => {
+  const response = await httpClient({
+    method: "GET",
+    endpoint: `/tickets`,
+  });
+  res.status(response.statusCode).json(response);
+};
