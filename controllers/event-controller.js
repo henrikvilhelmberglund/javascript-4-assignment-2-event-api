@@ -5,6 +5,7 @@ import console from "hvb-console";
 export const listAreas = async (req, res) => {
   console.log("awawa");
   const response = await httpClient({
+    method: "GET",
     endpoint: "/areas",
   });
   res.status(response.statusCode).json(response);
@@ -19,8 +20,23 @@ export const getAreaInfo = async (req, res) => {
   }
   const area = req.params.area;
   const response = await httpClient({
+    method: "GET",
     endpoint: `/details/${area}`,
     area,
+  });
+  res.status(response.statusCode).json(response);
+};
+
+export const postTickets = async (req, res) => {
+  if (Object.keys(req.body).length === 0) {
+    res.status(500).json({ success: false, message: "Invalid body" });
+    return;
+  }
+  console.info(req.body);
+  const response = await httpClient({
+    method: "POST",
+    endpoint: `/tickets`,
+    body: req.body,
   });
   res.status(response.statusCode).json(response);
 };
