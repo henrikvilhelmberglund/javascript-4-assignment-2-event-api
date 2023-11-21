@@ -26,7 +26,7 @@ export const fetchData = async ({
       "content-type": "application/json",
       // authorization: `Bearer ${process.env.TOKEN}`,
     },
-    body: JSON.stringify(body),
+    body: body ? JSON.stringify(body) : null,
   };
   console.log("endpoint", endpoint);
   const result = await fetch(url, options);
