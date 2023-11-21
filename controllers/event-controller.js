@@ -48,3 +48,13 @@ export const getTickets = async (req, res) => {
   });
   res.status(response.statusCode).json(response);
 };
+
+export const deleteTicket = async (req, res) => {
+  const id = req.params.id;
+  const response = await httpClient({
+    method: "DELETE",
+    endpoint: `/tickets/${id}`,
+  });
+  res.status(response.statusCode).json(response);
+};
+

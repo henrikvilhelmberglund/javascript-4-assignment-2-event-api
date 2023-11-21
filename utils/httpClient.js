@@ -1,12 +1,7 @@
 import fetch from "node-fetch";
 import console from "hvb-console";
 
-export const fetchData = async ({
-  endpoint,
-  area = null,
-  method,
-  body = null,
-}) => {
+export const fetchData = async ({ endpoint, method, body = null }) => {
   // reset response
   const response = {
     status: "Error",
