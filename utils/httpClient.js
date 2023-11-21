@@ -1,7 +1,12 @@
 import fetch from "node-fetch";
 import console from "hvb-console";
 
-export const fetchData = async ({ endpoint, area = null }) => {
+export const fetchData = async ({
+  endpoint,
+  area = null,
+  method,
+  body = null,
+}) => {
   // reset response
   const response = {
     status: "Error",
@@ -12,12 +17,16 @@ export const fetchData = async ({ endpoint, area = null }) => {
 
   let url = `${process.env.BASE_URL}${endpoint}`;
 
+  console.log(body);
+
   const options = {
-    method: "GET",
+    method,
     headers: {
       accept: "application/json",
+      "content-type": "application/json",
       // authorization: `Bearer ${process.env.TOKEN}`,
     },
+    body: JSON.stringify(body),
   };
   console.log("endpoint", endpoint);
   const result = await fetch(url, options);
@@ -26,6 +35,12 @@ export const fetchData = async ({ endpoint, area = null }) => {
     let data = await result.json();
     response.status = "Success";
     response.statusCode = 200;
+    response.data = data;
+    response.error = undefined;
+  } else if (result.status === 201) {
+    let data = await result.json();
+    response.status = "Success: Added data";
+    response.statusCode = 201;
     response.data = data;
     response.error = undefined;
   } else if (result.status === 404) {
