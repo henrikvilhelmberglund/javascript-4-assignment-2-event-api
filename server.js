@@ -10,6 +10,7 @@ const app = express();
 
 // Setting middleware
 app.use(cors());
+app.use(express.json());
 // API base URL here
 app.use("/api/v1", router);
 
