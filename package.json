@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
-    "dev": "concurrently \"nodemon server\" \"json-server --watch mock.json --port 7777\"",
+    "dev": "concurrently \"nodemon --ignore \"mock.json\" server\" \"json-server --watch mock.json --port 7777\"",
     "release": "commit-and-tag-version",
     "postrelase": "git push --follow-tags origin main"
   },
