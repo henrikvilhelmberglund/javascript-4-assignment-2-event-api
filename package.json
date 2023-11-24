@@ -1,5 +1,11 @@
 {
-  "name": "express-api-template",
+  "name": "javascript-4-assignment-2-event-api",
+  "author": {
+    "name": "Henrik Berglund",
+    "url": "https://github.com/henrikvilhelmberglund"
+  },
+  "private": true,
+  "license": "MIT",
   "version": "0.0.1",
   "description": "",
   "main": "server.js",
@@ -11,8 +17,6 @@
     "postrelease": "git push --follow-tags origin main"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.18.2",
