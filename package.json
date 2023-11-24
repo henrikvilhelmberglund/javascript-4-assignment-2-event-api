@@ -8,7 +8,7 @@
     "start": "node server.js",
     "dev": "concurrently \"nodemon --ignore \"mock.json\" server\" \"json-server --watch mock.json --port 7777\"",
     "release": "commit-and-tag-version",
-    "postrelase": "git push --follow-tags origin main"
+    "postrelease": "git push --follow-tags origin main"
   },
   "keywords": [],
   "author": "",
