@@ -12,7 +12,7 @@ export const fetchData = async ({ endpoint, method, body = null }) => {
 
   let url = `${process.env.BASE_URL}${endpoint}`;
 
-  console.log(body);
+  // console.log(body);
 
   const options = {
     method,
@@ -23,7 +23,7 @@ export const fetchData = async ({ endpoint, method, body = null }) => {
     },
     body: body ? JSON.stringify(body) : null,
   };
-  console.log("endpoint", endpoint);
+  // console.log("endpoint", endpoint);
   const result = await fetch(url, options);
 
   if (result.status === 200) {
