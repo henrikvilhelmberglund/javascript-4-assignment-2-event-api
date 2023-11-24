@@ -2,6 +2,22 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## [1.0.0](https://github.com/henrikvilhelmberglund/javascript-4-assignment-2-event-api/compare/v0.0.1...v1.0.0) (2023-11-24)
+
+
+### Features:
+
+* update README ([f2912a9](https://github.com/henrikvilhelmberglund/javascript-4-assignment-2-event-api/commit/f2912a95b6aac3d1113cefbef6a8ba947e098294))
+
+
+### Bug Fixes
+
+* update package.json ([ce87613](https://github.com/henrikvilhelmberglund/javascript-4-assignment-2-event-api/commit/ce876131cd419a0970f63acd0eedca0d12eecb30))
+* comment out console log ([4b72672](https://github.com/henrikvilhelmberglund/javascript-4-assignment-2-event-api/commit/4b72672ecc40a3340a999597cce9c5bc684d8b8e))
+* remove console log ([a09059c](https://github.com/henrikvilhelmberglund/javascript-4-assignment-2-event-api/commit/a09059c8201389acdb1338b02f93b40e8f48fc61))
+* remove tickets ([4251d16](https://github.com/henrikvilhelmberglund/javascript-4-assignment-2-event-api/commit/4251d1649e4f9a40c3f0615b8ee44fbe3ef55f93))
+* fix script name ([a8eaf22](https://github.com/henrikvilhelmberglund/javascript-4-assignment-2-event-api/commit/a8eaf225e60737e5521dd2a175a5f7659e7950e7))
+
 ## 0.0.1 (2023-11-23)
 
 
