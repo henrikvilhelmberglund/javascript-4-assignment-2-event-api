@@ -3,7 +3,6 @@ import console from "hvb-console";
 
 // stubs
 export async function listAreas(req, res) {
-  console.log("awawa");
   const response = await httpClient({
     method: "GET",
     endpoint: "/areas",
